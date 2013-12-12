@@ -76,9 +76,6 @@
 	color:#fff;
 }
 
-#current,.menu ul li a:hover,.menu ul>li:hover>a {
-		background-color:#252c34;
-}
 #current:after {
 	bottom:-2.5px;
 	content:'';

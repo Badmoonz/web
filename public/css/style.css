@@ -25,7 +25,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 h1,h2,h3 {
-    margin: 0 0 25px;
+    margin: 0 0 0px;
 }
 
 h3 {
@@ -33,7 +33,7 @@ h3 {
     position: relative;
 }
 
-h3.title {
+h3.title  {
 	overflow: hidden;
 	line-height:28px;
 }
@@ -108,8 +108,10 @@ a:hover,a:focus {
 
 header .top-bar {
     min-height: 30px;
-    background: #25292C;
+    background: #323B44;
 	border-bottom: 1px solid #414f5a;
+    -webkit-box-shadow: 0 3px 3px -3px rgba(0,0,0,0.2);
+    box-shadow: 0 3px 3px -3px rgba(0,0,0,0.2);
     padding: 7px 0;
 }
 
@@ -219,6 +221,10 @@ header .main-header {
 .logo {
     height: 80px;
 }
+.logo h1,h2,h3,h4,h5 {
+    color: #fff;
+}
+
 
 .logo h1 {
     margin: 13px 0;
@@ -229,31 +235,19 @@ header .main-header {
 }
 /* Breadcrumbs */
 .breadcrumb-wrapper {
-    background: #FAFAFA;
     border: 1px solid #DDD;
     -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
-	
-	/* Safari 4-5,Chrome 1-9 */ 
-	background:-webkit-gradient(linear,0% 0%,0% 100%,from(#f8f8f8),to(#fafafa));
-	
-	/* Safari 5.1,Chrome 10+*/ 
-	background:-webkit-linear-gradient(top,#f8f8f8,#fafafa);
-	
-	/* Firefox 3.6+*/ 
-	background:-moz-linear-gradient(top,#f8f8f8,#fafafa);
-	
-	/* IE 10 */ 
-	background:-ms-linear-gradient(top,#f8f8f8,#fafafa);
-	
-	/* Opera 11.10+*/ 
-	background:-o-linear-gradient(top,#f8f8f8,#fafafa);
+
 }
+
+
 
 h2.title {
     font-size: 26px;
     line-height: 40px;
     margin: 20px 0;
+    color:  #666;
 }
 
 .breadcrumbs {
@@ -293,13 +287,14 @@ h2.title {
 .fullwidthbanner-container {
     width: 100% !important;
     position: relative;
-    max-height: 470px !important;
+    max-height: 400px !important;
     overflow: hidden;
     background-image: url(../img/loader.gif);
     background-repeat: no-repeat;
     background-position: 50%;
     padding: 0;
     visibility: hidden;
+ /*   margin: 0 0 -100px 0;*/
 }
 
 .tp-leftarrow.default,.nivo-prevNav {
@@ -473,7 +468,7 @@ h2.title {
 	padding: 0 0 60px;
 }
 
-.home #main, .home-2 #main, .home-3 #main, .page-services #main, .about #main {
+.index #main, .requirements #main, .about #main {
 	padding:0;
 }
 
@@ -560,6 +555,7 @@ h2.title {
 }
 
 .post-content {
+    padding-top: 10px;
     padding-bottom: 10px;
 }
 
@@ -950,18 +946,6 @@ ol.commentlist li:first-child {
 
 
 /* Main Content Boxes */
-.main-content,.content {
-    padding: 60px 0 0;
-}
-
-.home-2 .main-content, .home-3 .main-content {
-	margin: 45px 0 40px;
-	padding:0;
-}
-
-.main-content {
-	margin: 45px 0 35px;
-}
 
 div.content-box {
     clear: both;
@@ -1547,7 +1531,7 @@ a.scrollup:hover i,a.scrollup:focus i {
 
 .contact-us {
     margin: 15px 0 0;
-    background: url("../img/contact-map.png") no-repeat center bottom;
+ /*   background: url("../img/contact-map.png") no-repeat center bottom; */
 }
 
 footer .contact-us a {
@@ -1648,7 +1632,7 @@ ul.why li {
 }
 
 ul.why li:before {
-    content: "\f00c";
+    content: "\f091";
     font-family: FontAwesome;
     position: relative;
     color: #fff;

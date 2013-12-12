@@ -627,9 +627,9 @@ jQuery(document).ready(function () {
 		address: "Khulna Division, Bangladesh",
 		zoom: 10,
 		markers: [{
-			latitude: 22.816694,
-			longitude: 89.549904,
-			html: "<h4>FIFO Themes</h4>Wordpress, HTML5/CSS Themes",
+			latitude: 55.718796,
+			longitude: 37.608154,
+			html: "here we are",
 			popup: true
 		}]
 	});

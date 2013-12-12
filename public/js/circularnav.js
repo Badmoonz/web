@@ -13,7 +13,7 @@ function step1(){
       });
 	  
 	  items.each(function(i, el){
-      var angle = i * 40 - 10;
+      var angle = i * 360 / items.length - 10;
       jQuery(this).css({
         'transform': 'rotate('+angle+'deg) skew(50deg)'
       });
