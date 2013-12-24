@@ -25,7 +25,7 @@ object Global extends GlobalSettings {
 package object globals {
 
   val phoneMain = "8 (499) 725 17 56";
-  val emailMain = "mczaym@@gmail.com";
+  val emailMain = "mczaym@gmail.com";
   val address= "г. Москва , Проспект Андропова, д. 26";
 }
 
