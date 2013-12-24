@@ -624,12 +624,12 @@ jQuery(document).ready(function () {
 		
 	//Google map
 	jQuery('#maps').gMap({
-		address: "Khulna Division, Bangladesh",
-		zoom: 10,
+//		address: "Khulna Division, Bangladesh",
+		zoom: 16,
 		markers: [{
-			latitude: 55.718796,
-			longitude: 37.608154,
-			html: "here we are",
+			latitude: 55.680790,
+			longitude: 37.662579,
+//			html: "Наш офис",
 			popup: true
 		}]
 	});
